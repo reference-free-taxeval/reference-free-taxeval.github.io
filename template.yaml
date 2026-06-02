@@ -50,7 +50,7 @@ bibtex: >
       archivePrefix={arXiv},
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2505.11470}, 
-}
+  }
 
 teaser: teaser.svg
 abstract: |
