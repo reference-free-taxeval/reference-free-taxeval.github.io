@@ -1,26 +1,26 @@
 theme: default # default || dark
-organization: Dublin City University
+organization: Maynooth University
 twitter: null
-title: "FoodTaxo: Generating Food Taxonomies with Large Language Models"
-journal: "ACL Industry Track 2025"
+title: "Reference-Free Evaluation of Taxonomies"
+journal: "ACL Findings 2026"
 resources:
-  paper: https://aclanthology.org/2025.acl-industry.55/
-  arxiv: https://arxiv.org/abs/2505.19838
-  code: https://github.com/wullli/foodtaxo
+  paper: null
+  arxiv: https://arxiv.org/abs/2505.11470
+  code: https://github.com/wullli/reference-free-taxeval
   video: null
   demo: null
   huggingface: null
 description: Generating and completing food taxonomies using large language models in a taxonomy completion setting.
 
 image: https://github.com/wullli/foodtaxo/raw/main/assets/teaser.png
-url: https://foodtaxo.github.io
+url: reference-free-taxeval.github.io
 authors:
   - name: Pascal Wullschleger
     affiliation: [1, 2]
     url: null
     position: PhD Student
   - name: Majid Zarharan
-    affiliation: [2]
+    affiliation: [3]
     position: PhD Student
     url: https://zarharan.github.io/
   - name: Donnacha Daly
@@ -33,45 +33,25 @@ authors:
     url: https://marcpouly.ch/
   - name: Jennifer Foster
     affiliation: [2]
-    position: Associate Professor
+    position: Professor
     url: https://www.computing.dcu.ie/~jfoster/
 affiliations:
-  - Lucerne University of Applied Sciences and Arts
+  - Lucerne School of Information Technology
+  - Maynooth University
   - Dublin City University
 meta:
   - ''
 bibtex: >
-  @inproceedings{wullschleger-etal-2025-foodtaxo,
-      title = "{F}ood{T}axo: Generating Food Taxonomies with Large Language Models",
-      author = "Wullschleger, Pascal  and
-        Zarharan, Majid  and
-        Daly, Donnacha  and
-        Pouly, Marc  and
-        Foster, Jennifer",
-      editor = "Rehm, Georg  and
-        Li, Yunyao",
-      booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 6: Industry Track)",
-      month = jul,
-      year = "2025",
-      address = "Vienna, Austria",
-      publisher = "Association for Computational Linguistics",
-      url = "https://aclanthology.org/2025.acl-industry.55/",
-      pages = "784--803",
-      ISBN = "979-8-89176-288-6",
-      abstract = "We investigate the utility of Large Language Models for automated taxonomy generation and completion specifically applied to taxonomies from the food technology industry. We explore the extent to which taxonomies can be completed from a seed taxonomy or generated without a seed from a set of known concepts, in an iterative fashion using recent prompting techniques.Experiments on five taxonomies using an open-source LLM (Llama-3), while promising, point to the difficulty of correctly placing inner nodes."
-  }
+  @misc{wullschleger2026referencefreeevaluationtaxonomies,
+      title={Reference-Free Evaluation of Taxonomies}, 
+      author={Pascal Wullschleger and Majid Zarharan and Donnacha Daly and Marc Pouly and Jennifer Foster},
+      year={2026},
+      eprint={2505.11470},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.11470}, 
+}
 
-teaser: bootstrapping.drawio.svg
+teaser: teaser.svg
 abstract: |
-  We investigate the utility of Large Language
-  Models for automated taxonomy generation
-  and completion specifically applied to tax-
-  onomies from the food technology industry. We
-  explore the extent to which taxonomies can be
-  completed from a seed taxonomy or generated
-  without a seed from a set of known concepts,
-  in an iterative fashion using recent prompting
-  techniques. Experiments on five taxonomies
-  using an open-source LLM (Llama-3), while
-  promising, point to the difficulty of correctly
-  placing inner nodes.
+  We introduce two reference-free metrics for quality evaluation of taxonomies in the absence of labels. The first metric evaluates robustness by calculating the correlation between semantic and taxonomic similarity, addressing error types not considered by existing metrics. The second uses Natural Language Inference to assess logical adequacy. Both metrics are tested on five taxonomies and are shown to correlate well with F1 against ground truth taxonomies. We further demonstrate that our metrics can predict downstream performance in hierarchical classification when used with label hierarchies.
