@@ -6,11 +6,11 @@ journal: "ACL Findings 2026"
 resources:
   paper: null
   arxiv: https://arxiv.org/abs/2505.11470
-  code: https://github.com/wullli/reference-free-taxeval
+  code: https://github.com/wullli/reference-free-taxonomy-eval
   video: null
   demo: null
   huggingface: null
-description: Generating and completing food taxonomies using large language models in a taxonomy completion setting.
+description: Reference-free methods for evaluating taxonomies.
 
 image: https://github.com/wullli/foodtaxo/raw/main/assets/teaser.png
 url: reference-free-taxeval.github.io
