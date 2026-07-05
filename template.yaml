@@ -42,15 +42,27 @@ affiliations:
 meta:
   - ''
 bibtex: >
-  @misc{wullschleger2026referencefreeevaluationtaxonomies,
-      title={Reference-Free Evaluation of Taxonomies}, 
-      author={Pascal Wullschleger and Majid Zarharan and Donnacha Daly and Marc Pouly and Jennifer Foster},
-      year={2026},
-      eprint={2505.11470},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.11470}, 
-  }
+  @inproceedings{wullschleger-etal-2026-reference,
+    title = "Reference-Free Evaluation of Taxonomies",
+    author = "Wullschleger, Pascal  and
+      Zarharan, Majid  and
+      Daly, Donnacha  and
+      Pouly, Marc  and
+      Foster, Jennifer",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.1273/",
+    doi = "10.18653/v1/2026.findings-acl.1273",
+    pages = "25489--25507",
+    ISBN = "979-8-89176-395-1",
+}
 
 teaser: teaser.svg
 abstract: |
