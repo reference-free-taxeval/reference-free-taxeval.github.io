@@ -4,7 +4,7 @@ twitter: null
 title: "Reference-Free Evaluation of Taxonomies"
 journal: "ACL Findings 2026"
 resources:
-  paper: null
+  paper: https://aclanthology.org/2026.findings-acl.1273/
   arxiv: https://arxiv.org/abs/2505.11470
   code: https://github.com/wullli/reference-free-taxonomy-eval
   video: null
