@@ -62,7 +62,7 @@ bibtex: >
     doi = "10.18653/v1/2026.findings-acl.1273",
     pages = "25489--25507",
     ISBN = "979-8-89176-395-1",
-}
+  }
 
 teaser: teaser.svg
 abstract: |
