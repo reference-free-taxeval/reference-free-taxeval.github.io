@@ -58,7 +58,7 @@ class Template extends React.Component {
           resources={data.resources}
           theme={data.theme}
         />
-        <div className="uk-container uk-container-small">
+        <div className="uk-container uk-container-xsmall">
           <Overview
             abstract={data.abstract}
             teaser={data.teaser}
